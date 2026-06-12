@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Akun GitHub Style</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <form id="loginForm">
+            <h3>Silahkan Login</h3>
+            
+            <div class="input-group">
+                <label for="username">Nama Pengguna</label>
+                <input type="text" id="username" placeholder="Nama Pengguna .." required="required">
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Password .." required="required">
+            </div>
+            
+            -->
+            
+            <button type="submit" class="btn-submit">masuk</button>
+
+            <div class="social">
+                <div class="go"><a href="register.html">DAFTAR</a></div>
+                <div class="kanan"><i class="fab fa-google"></i> Google</div>
+            </div>
+
+            <button type="button" class="btn-home" onclick="location.href='../index.html';">Home</button>
+            
+            <div id="alertBox" class="alert" style="display:none;"></div>
+        </form>
+    </div>
+
+    <script src="js/login.js"></script>
+</body>
+</html>
